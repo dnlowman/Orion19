@@ -1,0 +1,42 @@
+﻿Build started 15/05/2014 14:15:11.
+     1>Project "E:\C++ Projects\Projects\Orion19\Orion19\Orion19.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DefaultState.cpp
+         DefaultState.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++ Projects\Projects\Orion19\Debug\Orion19.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\C++ Projects\Projects\Orion19\Debug\Orion19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++ Projects\Projects\Orion19\Debug\Orion19.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\AssetManager.obj
+         Debug\Bullet.obj
+         Debug\Button.obj
+         Debug\CreditsState.obj
+         Debug\DefaultState.obj
+         Debug\Enemy.obj
+         Debug\Explosion.obj
+         Debug\GameManager.obj
+         Debug\GameOverState.obj
+         Debug\HelpState.obj
+         Debug\IGameObject.obj
+         Debug\Input.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\MenuState.obj
+         Debug\Particle.obj
+         Debug\Pickup.obj
+         Debug\Planet.obj
+         Debug\Player.obj
+         Debug\SDLFramework.obj
+         Debug\Sound.obj
+         Debug\SplashState.obj
+         Debug\Sprite.obj
+         Debug\StateManager.obj
+         Debug\Surface.obj
+         Debug\Texture.obj
+         Debug\Timer.obj
+         Debug\Utils.obj
+         Orion19.vcxproj -> E:\C++ Projects\Projects\Orion19\Debug\Orion19.exe
+     1>Done Building Project "E:\C++ Projects\Projects\Orion19\Orion19\Orion19.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.62

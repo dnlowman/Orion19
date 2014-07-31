@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{a835afe0-eae1-4312-9b59-1e6e7e7c6951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orion19">
+      <UniqueIdentifier>{e2130714-2d77-4e53-a090-ad9026540304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orion19\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Orion19\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework\Header Files">
+      <UniqueIdentifier>{929a76d1-9170-499d-9309-dabafbabade2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\State Manager">
+      <UniqueIdentifier>{1ab9b5ed-e080-4bfb-bcc2-344e008d9e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\State Manager\States">
+      <UniqueIdentifier>{d24f23dd-8113-4231-83e2-3fc8e31293e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Interfaces">
+      <UniqueIdentifier>{20ef3efc-7863-4f2c-a61c-89528f16e91a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DefaultState.cpp">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Framework\State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditsState.cpp">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpState.cpp">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameObject.cpp">
+      <Filter>Framework\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Orion19\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DefaultState.h">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLFramework.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Framework\State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Framework\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>Framework\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditsState.h">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpState.h">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Framework\State Manager\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Orion19\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\dss.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\explosion.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\weaponfire.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\wil.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\blueparticle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\codeheads.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\comlogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\credits.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\drone.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\enemyBullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\explosions.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\help.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\hpPickup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\logo390.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\missileEnemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\multiPickup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\optionsButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\orion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\quitButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\shieldPickup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\speedPickup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\startButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\esp_ital.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="fonts\esp_bold.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="fonts\esp_bdit.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="fonts\esp.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
